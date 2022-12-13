@@ -43,6 +43,12 @@ Counter >> decrement [
 ]
 
 { #category : #accessing }
+Counter >> decrementTwice [
+
+	count := count - 2
+]
+
+{ #category : #accessing }
 Counter >> increment [
 
 	count := count + 1
