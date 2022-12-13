@@ -27,3 +27,15 @@ Counter >> count: initialCount [
 
 count := initialCount 
 ]
+
+{ #category : #accessing }
+Counter >> decrement [
+
+	count := count - 1
+]
+
+{ #category : #accessing }
+Counter >> increment [
+
+	count := count + 1
+]
