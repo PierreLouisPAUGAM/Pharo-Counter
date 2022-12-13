@@ -39,3 +39,11 @@ Counter >> increment [
 
 	count := count + 1
 ]
+
+{ #category : #accessing }
+Counter >> initialize [
+	"Sets the initial value of the counter to 0"
+	
+	super initialize.
+	self count: 0
+]

@@ -30,3 +30,11 @@ CounterTest >> testIncrement [
 	c count: 0; increment; increment.
 	self assert: c count equals: 2
 ]
+
+{ #category : #tests }
+CounterTest >> testInitialize [
+
+	|c|
+	c := Counter new.
+	self assert: c count equals: 0
+]
